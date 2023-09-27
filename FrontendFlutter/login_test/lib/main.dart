@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'App Frontend',
-      initialRoute: 'splash',
+      initialRoute: 'login',
       routes: {
         '/': ( _ ) => const HomeScreen(),
         'splash': ( _ ) => const SplashScreen(),
