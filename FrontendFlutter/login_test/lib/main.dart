@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_test/components/components.dart';
 import 'package:login_test/screens/screens.dart';
 
 void main() {
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'App Frontend',
-      initialRoute: 'login',
+      initialRoute: 'splash',
       routes: {
         '/': ( _ ) => const HomeScreen(),
+        'splash': ( _ ) => const SplashScreen(),
         'login': ( _ ) => const LoginScreen(),
       },
       theme: ThemeData.light().copyWith(

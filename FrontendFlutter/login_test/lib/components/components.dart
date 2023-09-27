@@ -1,0 +1,1 @@
+export 'package:login_test/components/utils/splash_screen.dart';
